@@ -4,6 +4,7 @@ import 'package:aw/screens/login.screen.dart';
 import 'package:aw/screens/message.screen.dart';
 import 'package:aw/screens/pages.screen.dart';
 import 'package:aw/screens/register.screen.dart';
+import 'package:aw/screens/safak1.screen.dart';
 import 'package:aw/screens/splash.screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
@@ -26,6 +27,7 @@ class MainApp extends StatelessWidget {
         '/register': (context) => const RegisterScreen(),
         '/pages': (context) => const PagesScreen(),
         '/conversions': (context) => const ConversionsScreen(),
+        '/safak1': (context) => const Safak1Screen(),
       },
       onGenerateRoute: (settings) {
         if (settings.name == '/message') {
