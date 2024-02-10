@@ -1,4 +1,5 @@
 import 'package:aw/screens/conversions.screen.dart';
+import 'package:aw/screens/eren1.screen.dart';
 import 'package:aw/screens/home.screen.dart';
 import 'package:aw/screens/login.screen.dart';
 import 'package:aw/screens/message.screen.dart';
@@ -26,6 +27,7 @@ class MainApp extends StatelessWidget {
         '/register': (context) => const RegisterScreen(),
         '/pages': (context) => const PagesScreen(),
         '/conversions': (context) => const ConversionsScreen(),
+        '/eren1': (context) => const Eren1Screen(),
       },
       onGenerateRoute: (settings) {
         if (settings.name == '/message') {
