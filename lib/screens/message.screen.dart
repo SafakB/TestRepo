@@ -1,9 +1,7 @@
 import 'dart:convert';
-import 'dart:developer';
 import 'dart:math';
 
 import 'package:appwrite/appwrite.dart';
-import 'package:appwrite/models.dart';
 import 'package:aw/constants/database.constant.dart';
 import 'package:aw/providers/auth.riverpod.dart';
 import 'package:aw/providers/client.riverpod.dart';
